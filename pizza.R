@@ -16,4 +16,6 @@ json_file <- lapply(json_file, function(x) {
 
 data<-do.call("rbind", json_file)
 
+# you will get a matrix as an output
+
 

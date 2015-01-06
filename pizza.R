@@ -18,4 +18,6 @@ data<-do.call("rbind", json_file)
 
 # you will get a matrix as an output
 
+ b<-as.data.frame(dataa,stringAsfactor=F)
+ 
 
